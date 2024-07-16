@@ -39,5 +39,5 @@ int Vehicle::getYearBuilt() const
 void Vehicle::displayInfo() const
 {
 	cout << "Manufacturer: " << manufacturer
-		<< "\nYear built: " << yearBuilt;
+		<< "\nYear built: " << yearBuilt << "\n";
 }
